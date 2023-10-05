@@ -1,0 +1,151 @@
+{
+    "Root": {
+        "Settings": {
+            "Automate": {
+                "Title": "Automatic Stat Increment",
+                "Hint": "This option opens an Automation section on move sheets (under Details). It can be used to increment a stat or resource when the move is dropped on an actor sheet."
+            },
+            "Load": {
+                "Title": "Load Auto-Calculate",
+                "Hint": "This option updates the PC's load carrying, burdened, and max values automatically."
+            },
+            "Masteries": {
+                "Title": "Masteries Rules (Triumph!)",
+                "Hint": "This option incorporates the Masteries rule (Travelers & Outsiders). IMPORTANT: To evaluate for mastery, add a Triumph description in move; otherwise, leave the description blank."
+            },
+            "Advantage": {
+                "Title": "Advantage & Disadvantage",
+                "Hint": "This option replaces +1 Forward and +1 Ongoing with advantage and disadvantage rolls."
+            },
+            "System": "System settings are being provided by the Root (PbtA) module."
+        },
+        "Sheet": {
+            "Results": {
+                "Critical": "Exceptionnel!",
+                "Success": "Magifique!",
+                "Partial": "Faiblard !",
+                "Failure": "Raté..."
+            },
+            "Stats": {
+                "Charm": "Charme",
+                "Cunning": "Ruse",
+                "Finesse": "Habileté",
+                "Luck": "Chance",
+                "Might": "Puissance"
+            },
+            "AttrTop": {
+                "Reputation": {
+                    "Label": "VOTRE REPUTATION",
+                    "Notoriety": "---------------DEFAVEUR--------------",
+                    "Prestige": "-------------------------PRESTIGE---------------------------"
+                }
+            },
+            "AttrLeft": {
+                "Resource": {
+                    "Injury": "BLESSURE",
+                    "Exhaustion": "EPUISEMENT",
+                    "Depletion": "DENUEMENT"
+                },
+                "Hold": "Hold",
+                "Equipment": {
+                    "Label": "Equipment & Charge",
+                    "Description": "Valeur de départ"
+                },
+                "Carrying": "Porté",
+                "Burdened": "Chargé (4+Might)",
+                "Max": "Max (Chargé x2)",
+                "Nature": "Nature",
+                "Drives": "Motivations",
+                "Connections": "Relations",
+                "Feats": "Tours de crapule"
+            },
+            "Moves": {
+                "Basic": "Manoevre de base",
+                "Playbook": "Manoeuvre du livre",
+                "Weapon": "Manoeuvres Martiales",
+                "Travel": "Manoeuvre de voyage",
+                "Reputation": "Manoeuvre de reputation"
+            },
+            "Items": {
+                "Equipment": "Equipement",
+                "Depletion": "Usure",
+                "Wear": "Porté"
+            },
+            "NPC": {
+                "Injury": "Blessure",
+                "Exhaustion": "Epuisement",
+                "Wear": "Porté",
+                "Morale": "Morale",
+                "Depletion": "Découragement",
+                "Inflicts": "Dommage",
+                "Drive": "Motivation",
+                "Moves": "Manoeuvre"
+            },
+            "Instructions": {
+                "Triumph": "Add Triumph description only if PC has mastery; otherwise, leave it blank. This allows the system to determine when to use Triumph.",
+                "StrongHit": "If PC has mastery, remember to change the result to 'On a 10-11' instead of 'On a 10+'."
+            },
+            "Traits": {
+                "Type": "Type",
+                "Nature": "Nature",
+                "Drive": "Drive",
+                "Connection": "Connection",
+                "Feat": "Roguish Feat",
+                "Automation": "Automation"
+            }
+        },
+        "Background": {
+            "Default": "Default",
+            "Ronin": "The Ronin",
+            "Chronicler": "The Chronicler",
+            "Exile": "The Exile",
+            "Heretic": "The Heretic",
+            "Pirate": "The Pirate",
+            "Prince": "The Prince",
+            "Raconteur": "The Raconteur",
+            "Custom": "Custom",
+            "Details": "Details",
+            "Species": "Species",
+            "Pronouns": "pronouns",
+            "Looks": "looks",
+            "Oddities": "oddities",
+            "Demeanor": "Demeanor",
+            "Background": "Background",
+            "Faction": "faction name",
+            "CustomTemplate": "<h3 style='border: none;'>Species</h3><ul><li>&nbsp;</li></ul><hr><h3 style='border: none;'>Details</h3><ul><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></ul><hr><h3 style='border: none;'>Demeanor</h3><ul><li>&nbsp;</li></ul><hr><h3 style='border: none;'>Background</h3><p><strong>Question?</strong></p><ul><li>&nbsp;</li></ul><p><strong>Question?</strong></p><ul><li>&nbsp;</li></ul><p><strong>Question?</strong></p><ul><li>&nbsp;</li></ul><p><strong>Question?</strong></p><ul><li>&nbsp;</li></ul><p><strong>Question?</strong></p><ul><li>&nbsp;</li></ul>",
+            "WhereIsHome": "Where do you call home?",
+            "WhyVagabond": "Why are you a vagabond?",
+            "LeftBehind": "Whom have you left behind?",
+            "LastMaster": "What happened to your last master?",
+            "LoveHistory": "Who inspired your love of history?",
+            "Captain": "What happened to your captain?",
+            "FallCause": "What caused your fall?",
+            "WhyExiled": "Why were you exiled (not killed)?",
+            "FactionExiled": "Which faction exiled you?",
+            "Minus2Reputation": "&nbsp;&mdash;&nbsp;<em>set your reputation with them to -2</em>",
+            "FactionLoyalty": "Which faction now seeks your loyalty or allegiance?",
+            "Plus1Reputation": "&nbsp;&mdash;&nbsp;<em>set your reputation with them to +1</em>",
+            "FuntamentalTenets": "What are the fundamental tenets of your cause? <em>(Pick 2)</em>",
+            "FactionHate": "Which faction is known to hate those who share your cause?",
+            "Minus1Reputation": "&nbsp;&mdash;&nbsp;<em>set your reputation with them to -1</em>",
+            "FactionHarbor": "Which faction is known to harbor those who share your cause?",
+            "ParentsVagabond": "Why did your parents raise you as a vagabond?",
+            "ParentsHappened": "What happened to your parents?",
+            "ParentsFactionServed": "Which faction did your parents serve the most?",
+            "ParentsFactionOppose": "With faction did your parents most often oppose?",
+            "WhomWronged": "Whom have you wronged and how?",
+            "FactionServed": "Which faction have you served the most?",
+            "MarkPrestige": "&nbsp;&mdash;&nbsp;<em>mark two prestige for approgriate group</em>",
+            "FactionEnmity": "With which faction have you earned a special enmity?",
+            "MarkNotoriety": "&nbsp;&mdash;&nbsp;<em>mark one notoriety for appropriate group</em>"
+        }
+    },
+    "PBTA": {
+        "Description": "Historique",
+        "Biography": "Historique et Details",
+        "Quantity": "Valeur",
+        "Weight": "Charge",
+        "Wt": "Load"
+    },
+    "TYPES.Item.root.traits": "traits"
+}
